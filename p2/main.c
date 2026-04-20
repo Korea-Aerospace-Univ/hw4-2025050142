@@ -13,7 +13,7 @@ int main(void) {
 
     for (int i = 0; i < n; i++)  // N번만큼 반복하며 문자 하나씩 검사
     {
-        ch = getchar(); 
+         scanf(" %c", &ch);
 
         // i) 영어 소문자
         if (ch >= 'a' && ch <= 'z') {
